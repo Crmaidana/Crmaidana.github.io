@@ -2,17 +2,17 @@
   /* colors */
   --texto-primario: #dddddd;
   --texto-secundario: #d1d1d1;
-  --fondo-primario: #0f0921;
-  --fondo-primario-transparente: #0f092180;
+  --fondo-primario: #11998e;
+  --fondo-primario-transparente: #09152138;
   --fondo-secundario: #0a0c13;
-  --color-primario: #2c2acb;
+  --color-primario: #5faee2;
   --color-primario-apagado: #2422a3;
   --color-secundario: #9b70f9;
   --color-terciario: #6f6f6f;
 
   /* sizes */
   --presentacion-titulo-tamanio: 4rem;
-  --presentacion-titulo-tamanio-grande: 3.4rem;
+  --presentacion-titulo-tamanio-grande: 3.8rem;
   --presentacion-descripcion-tamanio: 1.2rem;
   --titulo-tamanio: 3rem;
   --sub-titulo-tamanio: 2rem;
@@ -83,7 +83,7 @@ los escribiremos al final (comentarios: enlaces, botones, tarjetas) */
 .presentacion {
   width: 100%;
   height: 100vh;
-  background-image: url("./assets/images/profile/hero-tema-oscuro.jpg");
+  background-image: url("./assets/images/profile/portada2.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -98,7 +98,7 @@ los escribiremos al final (comentarios: enlaces, botones, tarjetas) */
   gap: 3rem;
   background: linear-gradient(
     90deg,
-    var(--fondo-primario-transparente) 20%,
+    var(--fondo-primario-transparente) 30%,
     transparent 40%
   );
 }
@@ -259,8 +259,8 @@ los escribiremos al final (comentarios: enlaces, botones, tarjetas) */
   background-color: var(--fondo-primario);
   background: linear-gradient(
     180deg,
-    var(--fondo-primario) 0%,
-    var(--fondo-secundario) 100%
+    var(--fondo-primario) 30%,
+    var(--fondo-secundario) 900%
   );
   border-top: 1px solid var(--texto-secundario);
 }
@@ -383,7 +383,7 @@ los escribiremos al final (comentarios: enlaces, botones, tarjetas) */
   left: 0;
   top: 0;
   height: 100%;
-  width: 100%;*/
+  width: 100%;
   padding: 0 2rem; 
   display: flex;
   flex-direction: column;
